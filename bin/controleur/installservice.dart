@@ -8,31 +8,33 @@ class InstallationService {
     Process p = await Process.start('bash', ['-c', cmd]);
     stdout.addStream(p.stdout);
     p.stdin.addStream(stdin);
-
     print(p.stdout);
   }
 
   static Future<void> installMariadb() async {
-    String cmd = "sudo apt install mariadb-server -y";
+    String cmd = "sudo apt install mariadb-server";
 
-    ProcessResult result = await Process.run('bash', ['-c', cmd]);
-
-    print(result.stdout);
+    Process p = await Process.start('bash', ['-c', cmd]);
+    stdout.addStream(p.stdout);
+    p.stdin.addStream(stdin);
+    print(p.stdout);
   }
 
   static Future<void> installPhp() async {
-    String cmd = "sudo apt install php -y";
+    String cmd = "sudo apt install php";
 
-    ProcessResult result = await Process.run('bash', ['-c', cmd]);
-
-    print(result.stdout);
+    Process p = await Process.start('bash', ['-c', cmd]);
+    stdout.addStream(p.stdout);
+    p.stdin.addStream(stdin);
+    print(p.stdout);
   }
 
   static Future<void> installFail2Ban() async {
-    String cmd = "sudo apt install fail2ban -y";
+    String cmd = "sudo apt install fail2ban";
 
-    ProcessResult result = await Process.run('bash', ['-c', cmd]);
-
-    print(result.stdout);
+    Process p = await Process.start('bash', ['-c', cmd]);
+    stdout.addStream(p.stdout);
+    p.stdin.addStream(stdin);
+    print(p.stdout);
   }
 }
