@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'ihm1.dart';
 import 'ihm4.dart';
+import 'ihm5.dart';
 
 class Ihm {
   static Future<void> pageprincipal() async {
@@ -51,6 +52,7 @@ class Ihm {
         valide = true;
       }
       if (choix == "5") {
+        await Ihm5.affichagebd();
         valide = true;
       }
     }

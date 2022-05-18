@@ -1,40 +1,31 @@
-import 'dart:convert';
 import 'dart:io';
 
 class InstallationService {
   static Future<void> installApache() async {
-    String cmd = "sudo apt install apache2";
+    String cmd = "sudo apt install -y";
 
-    Process p = await Process.start('bash', ['-c', cmd]);
-    stdout.addStream(p.stdout);
-    p.stdin.addStream(stdin);
+    ProcessResult p = await Process.run('bash', ['-c', cmd]);
     print(p.stdout);
   }
 
   static Future<void> installMariadb() async {
-    String cmd = "sudo apt install mariadb-server";
+    String cmd = "sudo apt install mariadb-server -y";
 
-    Process p = await Process.start('bash', ['-c', cmd]);
-    stdout.addStream(p.stdout);
-    p.stdin.addStream(stdin);
+    ProcessResult p = await Process.run('bash', ['-c', cmd]);
     print(p.stdout);
   }
 
   static Future<void> installPhp() async {
-    String cmd = "sudo apt install php";
+    String cmd = "sudo apt install php -y";
 
-    Process p = await Process.start('bash', ['-c', cmd]);
-    stdout.addStream(p.stdout);
-    p.stdin.addStream(stdin);
+    ProcessResult p = await Process.run('bash', ['-c', cmd]);
     print(p.stdout);
   }
 
   static Future<void> installFail2Ban() async {
-    String cmd = "sudo apt install fail2ban";
+    String cmd = "sudo apt install fail2ban -y";
 
-    Process p = await Process.start('bash', ['-c', cmd]);
-    stdout.addStream(p.stdout);
-    p.stdin.addStream(stdin);
+    ProcessResult p = await Process.run('bash', ['-c', cmd]);
     print(p.stdout);
   }
 }

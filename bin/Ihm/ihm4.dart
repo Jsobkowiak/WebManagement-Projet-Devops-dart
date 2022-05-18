@@ -15,6 +15,7 @@ class Ihm4 {
       print("\x1B[38;5;255m");
       String choix = stdin.readLineSync().toString();
       if (choix == "1") {
+        valide = true;
         await ConfigSite.ConfigurationWeb();
       } else if (choix == "R") {
         Ihm.menu();
