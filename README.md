@@ -21,8 +21,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-  </a>
 
   <h3 align="center">Projet Devops WebManagement</h3>
 
@@ -32,9 +30,9 @@
     <a href="https://github.com/Morbleuz/dart_furet/blob/main/README.md"><strong>Explorer la documentation -></strong></a>
     <br />
     <br />
-    <a href="https://github.com/Morbleuz/dart_furet/issues">Report de bug</a>
+    <a href="https://github.com/Jsobkowiak/WebManagement-Projet-Devops-dart/issues">Report de bug</a>
     ·
-    <a href="https://github.com/Morbleuz/dart_furet/issues">Posez des questions</a>
+    <a href="https://github.com/Jsobkowiak/WebManagement-Projet-Devops-dart/issues">Posez des questions</a>
   </p>
 </div>
 
@@ -61,7 +59,6 @@
 <!-- ABOUT THE PROJECT -->
 ## Le Projet
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Bienvenue sur mon projet aboutit dans un cadre scolaire. Ce projet permet la gestion d'apache2, il a donc nécessité la maitrise du language dart et de la programmation orientée objet mais également la gestion d'un projet.
 
