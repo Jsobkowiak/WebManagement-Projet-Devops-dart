@@ -48,8 +48,6 @@
       <a href="#le-projet">Le projet</a>
       <ul>
         <li><a href="#les-languages-utilisés">Les languages utilisés</a></li>
-        <li><a href="#organisation">Organisation</a></li>
-        <li><a href="#diagramme-de-classe">Le diagramme de classe</a></li>
       </ul>
     </li>
     <li><a href="#installation">Installation</a></li>
