@@ -6,7 +6,8 @@ class Ihm4 {
   static Future<void> suiteIhm4() async {
     bool valide = false;
     while (!valide) {
-      print("\x1B[38;5;214m" +
+      print(Ihm.effaceScreen() +
+          "\x1B[38;5;214m" +
           "+------------------------------------------------------------------------+\n" +
           "| Sélectionner un service                                                 |\n" +
           "| 1 - Configuration du site                                                              |\n" +
@@ -18,6 +19,8 @@ class Ihm4 {
         valide = true;
         await ConfigSite.ConfigurationWeb();
       } else if (choix == "R") {
+        valide = true;
+        print(Ihm.effaceScreen());
         Ihm.menu();
       }
     }

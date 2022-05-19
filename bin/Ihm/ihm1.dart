@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'ihm3.dart';
 import 'ihmP.dart';
 import '../controleur/installservice.dart';
 
@@ -6,7 +7,8 @@ class Ihm1 {
   static Future<void> suiteIhm1() async {
     bool valide = false;
     while (!valide) {
-      print("\x1B[38;5;214m" +
+      print(Ihm.effaceScreen() +
+          "\x1B[38;5;214m" +
           "+------------------------------------------------------------------------+\n" +
           "| Sélectionner un service                                                 |\n" +
           "| 1 - Apache                                                              |\n" +
@@ -20,6 +22,7 @@ class Ihm1 {
 
       if (choix == "R") {
         valide = true;
+        print(Ihm.effaceScreen());
         Ihm.menu();
       }
       if (choix == "1") {

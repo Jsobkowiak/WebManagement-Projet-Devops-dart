@@ -27,12 +27,11 @@ class Bdd {
     String password = stdin.readLineSync().toString();
 
     String requette = "create database " + db + ";";
-    String requette2 = "grant all privileges on *." +
-        db +
+    String requette2 = "grant all privileges on *.*" +
         " to " +
-        user +
+        "'$user'" +
         "@localhost identified by " +
-        password +
+        "'$password'" +
         ";";
 
     Bddconfig bddconfig = new Bddconfig.create();
@@ -40,11 +39,8 @@ class Bdd {
       MySqlConnection con =
           await MySqlConnection.connect(bddconfig.getconfig());
       Results test = await con.query(requette);
-      for (var row in test) {
-        for (var field in row) {
-          print(field.toString());
-        }
-      }
+      Results test2 = await con.query(requette2);
+
       con.close();
     } catch (e) {
       print(e.toString());

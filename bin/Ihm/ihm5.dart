@@ -7,7 +7,8 @@ class Ihm5 {
   static Future<void> affichagebd() async {
     bool valide = false;
     while (!valide) {
-      print("\x1B[38;5;214m" +
+      print(Ihm.effaceScreen() +
+          "\x1B[38;5;214m" +
           "+------------------------------------------------------------------------+\n" +
           "| Sélectionner un service                                                 |\n" +
           "| 1 - Configuration de la bdd                                               |\n" +
@@ -20,6 +21,7 @@ class Ihm5 {
         valide = true;
       } else if (choix == "R") {
         valide = true;
+        print(Ihm.effaceScreen());
         Ihm.menu();
       }
     }

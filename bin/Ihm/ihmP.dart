@@ -1,13 +1,18 @@
 import 'dart:io';
 import 'ihm1.dart';
+import 'ihm3.dart';
 import 'ihm4.dart';
 import 'ihm5.dart';
 
 class Ihm {
+  static String effaceScreen() {
+    String effacescreen = "\x1B[2J\x1B[0;0H";
+    return effacescreen;
+  }
+
   static Future<void> pageprincipal() async {
-    String effacescreen = "\x1B[2J\x1B[0;0H" + "\x1B[38;5;196m";
-    print(effacescreen +
-        "" +
+    print(effaceScreen() +
+        "\x1B[38;5;196m" +
         "  __          __  _       __  __                                                   _   \n" +
         "  \\ \\        / / | |     |  \\/  |                                                 | |  \n" +
         "   \\ \\  /\\  / /__| |__   | \\  / | __ _ _ __   __ _  __ _  ___ _ __ ___   ___ _ __ | |_ \n" +
@@ -46,6 +51,7 @@ class Ihm {
       }
       if (choix == "3") {
         valide = true;
+        await Ihm3.SuiteIhm3();
       }
       if (choix == "4") {
         await Ihm4.suiteIhm4();
