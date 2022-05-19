@@ -120,11 +120,7 @@ Pour quitter le logiciel revenez sur le menu principal et appuyé sur "Q"
 ## Contact
 
 
-Laude Axel : [![LinkedIn][linkedin-shield]][linkedin-url] 
-
 Sobkowiak Jonathan : [![LinkedIn][linkedin-shield]][linkedin-url2]
-
-Lien du projet: <a href="https://github.com/Morbleuz/dart_furet.git">ici</a>
 
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
