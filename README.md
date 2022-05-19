@@ -110,8 +110,7 @@ Suivant les différentes instructions pour l'installation du logiciel :
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
-Tout d'abord il faudra vous connecter à vôtre base de donnée faite sur vôtre ordinateur. Le logiciel vous demandes la base de donnée, le nom du l'utilisateur ainsi que son mot de passe.<br>
-Une fois les informations fournit l'utilisation de ce logiciel est plutôt simple, vous avez juste à naviguer aux travers des différents menus avec les touches "1", "2", "3" ,etc.<br>
+Ce logiciel est plutôt simple, vous avez juste à naviguer aux travers des différents menus avec les touches "1", "2", "3" ,etc.<br>
 Pour quitter le logiciel revenez sur le menu principal et appuyé sur "Q"
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
