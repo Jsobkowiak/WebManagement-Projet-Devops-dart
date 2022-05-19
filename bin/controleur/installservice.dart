@@ -2,7 +2,7 @@ import 'dart:io';
 
 class InstallationService {
   static Future<void> installApache() async {
-    String cmd = "sudo apt install -y";
+    String cmd = "sudo apt install apache2 -y";
 
     ProcessResult p = await Process.run('bash', ['-c', cmd]);
     print(p.stdout);
