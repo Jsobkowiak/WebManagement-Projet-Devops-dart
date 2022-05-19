@@ -20,16 +20,4 @@ class Bddconfig {
         password: this._password);
     return settings;
   }
-
-  void setDb(String newdb) {
-    _db = newdb;
-  }
-
-  void setUser(String newuser) {
-    _user = newuser;
-  }
-
-  void setPassword(String newpassword) {
-    _password = newpassword;
-  }
 }
