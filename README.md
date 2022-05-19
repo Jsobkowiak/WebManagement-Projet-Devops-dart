@@ -26,10 +26,10 @@ A simple command-line application.
     <img src="https://upload.wikimedia.org/wikipedia/fr/archive/9/90/20141104143106%21FuretDuNord.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Projet Furet du Nord</h3>
+  <h3 align="center">Projet Devops WebManagement</h3>
 
   <p align="center">
-    Projet réalisé par des étudiants en BTS SIO option SLAM
+    Projet réalisé par un étudiant en BTS SIO option SLAM
     <br />
     <a href="https://github.com/Morbleuz/dart_furet/blob/main/README.md"><strong>Explorer la documentation -></strong></a>
     <br />
