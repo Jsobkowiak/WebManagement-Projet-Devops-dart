@@ -1,4 +1,3 @@
-A simple command-line application.
 <div id="top"></div>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -23,7 +22,6 @@ A simple command-line application.
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://upload.wikimedia.org/wikipedia/fr/archive/9/90/20141104143106%21FuretDuNord.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Projet Devops WebManagement</h3>
@@ -67,15 +65,14 @@ A simple command-line application.
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Bienvenue sur notre projet aboutit dans un cadre scolaire. Ce projet simule la gestion d'une base de données pour le Furet du Nord, il a donc nécessité la conception et création d'une base de données, la maitrise du language dart et de la programmation orientée objet mais également la gestion d'un projet.
+Bienvenue sur mon projet aboutit dans un cadre scolaire. Ce projet permet la gestion d'apache2, il a donc nécessité la maitrise du language dart et de la programmation orientée objet mais également la gestion d'un projet.
 
 Le projet contient les fonctionnalités suivantes :
-* <strong>Consulter</strong> le contenu de chaque table, ainsi que des requêtes précises
-* <strong>Modifier</strong> le contenu de chaque table selon certains critère
-* <strong>Insérer</strong> des données dans chaque table
-* <strong>Supprimer</strong> des données dans chaque table
+* <strong>Installer</strong> tout les services nécéssaire a la création d'un serveur web(apache2,fail2ban,mariadb-server)
+* <strong>Gérer</strong> la base de donnée
+* <strong>Configurer</strong> les sites web
+* <strong>Activer/Désactiver</strong> les sites internet souhaiter
 
-Nous avons rajouté un script permettant l'importation et l'exportation d'une base de données.
 
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
@@ -89,19 +86,6 @@ Nous avons utilisé les languages suivants pour que le projet soit mené à bien
 
 <p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
-### Organisation
-
-Pour nous'organiser nous avons choisi le logiciel notion.
-Il nous a permis de s'organiser en ses répartion les tâches, voir leur état et savoir où nous en étions
-Vous pouvez retrouver notre notion
-
-#### Diagramme de classe
-
-Voici nôtre diagramme de classe :
-
-[![Product Name Screen Shot][diagramme]]
-
-<p align="right">(<a href="#top">Revenir en haut</a>)</p>
 
 ### Installation
 
@@ -109,17 +93,13 @@ Suivant les différentes instructions pour l'installation du logiciel :
 
 1. Cloner le repository
    ```sh
-   git clone https://github.com/Morbleuz/dart_furet.git
+   git clone git@github.com:Jsobkowiak/WebManagement-Projet-Devops-dart.git ```
    ```
-2. Si vous n'avez pas mariaDB
-   ```sh
-   apt install mariadb-server
-   ```
-3. Ce mettre dans le répertoire et installer les paquets
+2. Ce mettre dans le répertoire et installer les paquets
    ```sh
    dart pub get
    ```
-4. Lancer le programme
+3. Lancer le programme
    ```sh
    dart run bin/main.dart
    ```
