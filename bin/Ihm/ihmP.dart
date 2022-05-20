@@ -41,7 +41,6 @@ class Ihm {
       if (choix == "Q") {
         valide = true;
       }
-
       if (choix == "1") {
         valide = true;
         await Ihm1.suiteIhm1();

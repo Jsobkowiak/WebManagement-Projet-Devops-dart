@@ -21,7 +21,7 @@ class Ihm4 {
       } else if (choix == "R") {
         valide = true;
         print(Ihm.effaceScreen());
-        Ihm.menu();
+        await Ihm.menu();
       }
     }
   }

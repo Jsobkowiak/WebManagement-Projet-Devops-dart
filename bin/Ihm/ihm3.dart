@@ -21,13 +21,13 @@ class Ihm3 {
       if (choix == "R") {
         valide = true;
         print(Ihm.effaceScreen());
-        Ihm.menu();
+        await Ihm.menu();
       } else if (choix == "1") {
         valide = true;
-        InstallPacket.Installpackett();
+        await InstallPacket.Installpackett();
       } else if (choix == "2") {
         valide = true;
-        Ihm3Suite.SuiteInstallCms();
+        await Ihm3Suite.SuiteInstallCms();
       }
     }
   }

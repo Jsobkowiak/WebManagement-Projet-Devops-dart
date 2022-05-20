@@ -17,12 +17,12 @@ class Ihm5 {
       print("\x1B[38;5;255m");
       String choix = stdin.readLineSync().toString();
       if (choix == "1") {
-        Bdd.createBaseAndAccount();
+        await Bdd.createBaseAndAccount();
         valide = true;
       } else if (choix == "R") {
         valide = true;
         print(Ihm.effaceScreen());
-        Ihm.menu();
+        await Ihm.menu();
       }
     }
   }
